@@ -1,0 +1,76 @@
+.reg{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reg h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+
+.reg .info{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reg .info .heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.reg .info ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reg .info ul .li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.reg .rg_fees{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reg .rg_fees h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.reg .rg_note{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reg .rg_note h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Media quiry */
+
+@media (max-width: 1200px) {
+    .reg{
+        width: 90%;
+    }
+    
+}

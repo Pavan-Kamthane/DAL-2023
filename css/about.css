@@ -1,0 +1,25 @@
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 3rem;
+    background-color: #ffffff;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .desc div {
+    width: 100vw;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 60px;
+  }
+  .desc div h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .desc div p{
+    font-size: 15px;
+  }

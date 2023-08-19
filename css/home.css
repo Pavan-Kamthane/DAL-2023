@@ -1,0 +1,367 @@
+/* body  */
+
+.body .banner .banner_content {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.body .banner .banner_content .banner_content_box {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.403);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+}
+
+.body .banner .banner_content .banner_content_box .countdown_box {
+    width: 30%;
+    height: 10%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #fff;
+    /* border: 1px solid white; */
+    margin: 10px;
+    /* background: rgba(0, 0, 0, 0.446); */
+    /* backdrop-filter: blur(6px); */
+}
+
+.body .banner .banner_content .banner_content_box .countdown_box .countdown_box_item {
+    width: 90%;
+    height: 90%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    /* border: 1px solid white; */
+    margin: 0 10px;
+    background: rgba(0, 0, 0, 0.446);
+    backdrop-filter: blur(6px);
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 1px 1px 11px white;
+    border-radius: 20px;
+}
+
+
+.body .banner .banner_content .banner_content_box h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgb(2, 2, 2);
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.body .banner .banner_content .banner_content_box h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgb(2, 2, 2);
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.body .banner .banner_content .banner_content_box .date {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgb(2, 2, 2);
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.body .banner .banner_content .banner_content_box .loc {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgb(2, 2, 2);
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.body .banner .banner_content .banner_content_box a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    transition: 0.5s;
+    transform: translate3d(10px, 10px, 10px);
+    background: rgba(153, 137, 137, 0.447);
+    backdrop-filter: blur(6px);
+}
+
+.body .banner .banner_content .banner_content_box a:hover {
+    color: #f1f1f1;
+    background-color: #949494;
+    border-radius: 5px;
+    transition: 0.5s;
+    transform: translate3d(10px, 10px, 10px);
+}
+
+/* about_conference  */
+
+.body .about_conference {
+
+    background-color: aliceblue;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid white; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+
+}
+
+.body .about_conference .left_about {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.body .about_conference .left_about h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    /* font-family: 'Space Grotesk', sans-serif; */
+    color: #000;
+    margin: 0 10px;
+    text-shadow: 0.5px 1px 1px rgb(2, 2, 2);
+    margin: 20px;
+}
+
+.body .about_conference .left_about p {
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: center;
+    /* text-transform: uppercase; */
+    /* font-family: 'Space Grotesk', sans-serif; */
+    /* color: #000; */
+    font-family: 'Poppins';
+    margin: 0 10px;
+    text-shadow: 0.5px 1px 1px rgb(113, 108, 108);
+    margin: 20px;
+}
+
+.body .about_conference .left_about a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: rgb(18, 18, 18);
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    background: rgba(153, 137, 137, 0.447);
+}
+
+.body .about_conference .left_about a:hover {
+    color: #150101;
+    background-color: #f9ed08bd;
+    border-radius: 4px;
+    transition: 0.2s;
+    font-weight: bold;
+    
+    /* transform: scale(10px,20px); */
+}
+
+
+.body .about_conference .left_about .img{
+    width: 75%;
+    height: 70%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* margin: 0 auto; */
+}
+
+.body .about_conference .left_about .img img{
+    width: 600px;
+    height: 300px;
+    margin:0 30px;
+    /* border: 1px solid white; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+    /* margin: 0 auto; */
+    border-radius: 25px;
+    /* box-shadow: var(#949494); */
+    box-shadow: 1px 1px 12px black;
+}
+ 
+/* -------slider start ---------- */
+
+/* Image Slider Container */
+.slider-container {
+    width: 650px;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 35px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 12px black;}
+
+/* Image Slider Images */
+.slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slider-image.active {
+    opacity: 1;
+}
+
+/* Image Slider Navigation */
+.slider-nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.slider-nav i {
+    font-size: 10px;
+    color: #0a0202;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.slider-nav i.active {
+    color: #aef703;
+}
+
+
+
+/* -------------slider end ------------- */
+
+/* -----------------about conference end ----------------- */
+
+/* -----------------about_note start ----------------- */
+
+.body .about_note {
+    /* background: url("../img/BG2.jpeg"); */
+    /* background: linear-gradient(20deg,black,rgb(125, 2, 2),rgb(3, 3, 83),rgb(68, 2, 68)); */
+    background: rgba(121, 119, 119, 0.204);
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid white; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 10px ; */
+}
+
+.body .about_note h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #000;
+    margin: 0 10px;
+    text-shadow: 0.5px 1px 1px rgb(2, 2, 2);
+    margin: 20px;
+}
+
+.body .about_note .bbox{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.body .about_note .bbox .box{
+    width: 30%;
+    height: 90%;
+    /* border: 1px solid black; */
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 12px inset rgb(0, 0, 0);
+    color: #050505;
+    backdrop-filter: blur(6px);
+}
+.body .about_note .bbox .box h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #020202;
+    margin: 10px;
+    text-shadow: 0.5px 1px 1px rgb(255, 255, 255);
+    margin: 20px;
+}
+.body .about_note .bbox .box p{
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-family: 'Space Grotesk', sans-serif;
+    /* color: #000; */
+    font-family: 'Poppins';
+    margin: 0 10px;
+    text-align: justify;
+    text-shadow: 0.5px 1px 1px rgb(255, 255, 255);
+    margin: 20px;
+}
+
+
+

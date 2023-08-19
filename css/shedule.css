@@ -1,0 +1,127 @@
+.shedule{
+    width: 100%;
+    height: auto;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:5% ;
+    background-color: #fff;
+}
+
+.shedule .buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.shedule .buttons button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d8f903;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shedule .buttons button:hover{
+    background-color: #5a5904;
+    color: #f7f8f0;
+    border: 1px solid #d8f903;
+}
+
+.shedule .day{
+    width: 100%;
+    height: auto;
+    /* border: #000 1px solid; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.shedule .day .box{
+    width: 100%;
+    height: auto;
+    /* border: #000 1px solid; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.shedule .day .box h1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.shedule .day .info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.3);
+    background-color:#fff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* Give a small shadow */
+    /* -webkit-box-shadow: 1px 1px 8px rgba(0,0,0,0.3); */
+
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.shedule .day .info .time{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(99, 111, 46) ;
+    
+}
+
+.shedule .day .info .prof{
+    font-size: 20px;
+    font-weight: bold;
+    /* color: rgb(99, 111, 46) ; */
+}
+
+.shedule .day .info .prof .topic_name{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(99, 111, 46) ;
+}
+
+.shedule .day .info .prof .prof_name{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0) ;
+}
+
+.shedule .day .info .break{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(5, 5, 2) ;
+}
+
+

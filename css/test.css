@@ -1,0 +1,28 @@
+/* Hamburger container */
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  /* Hamburger lines */
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hamburger animation */
+  .hamburger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .hamburger.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -8px);
+  }
